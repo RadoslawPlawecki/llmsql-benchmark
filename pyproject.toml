@@ -19,9 +19,10 @@ dependencies = [
     "datasets",
     "tqdm",
     "numpy",
-    "python-dotenv",
+    "python-dotenv>=1.2.1",
     "pyyaml",
     "rich",
+    "vllm>=0.8.3",
 ]
 scripts = { llmsql = "llmsql.__main__:main" }
 classifiers = [
